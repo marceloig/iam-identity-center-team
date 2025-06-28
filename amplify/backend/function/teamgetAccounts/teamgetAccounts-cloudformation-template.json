@@ -86,7 +86,8 @@
         },
         "Runtime": "python3.10",
         "Layers": [],
-        "Timeout": 120
+        "Timeout": 120,
+        "MemorySize": 512
       }
     },
     "LambdaExecutionRole": {
@@ -212,7 +213,6 @@
           "Arn"
         ]
       }
-    },
     "Region": {
       "Value": {
         "Ref": "AWS::Region"
