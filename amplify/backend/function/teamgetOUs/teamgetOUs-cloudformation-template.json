@@ -90,7 +90,8 @@
         },
         "Runtime": "python3.10",
         "Layers": [],
-        "Timeout": 120
+        "Timeout": 120,
+        "MemorySize": 512
       }
     },
     "LambdaExecutionRole": {
