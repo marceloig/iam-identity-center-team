@@ -213,6 +213,7 @@
           "Arn"
         ]
       }
+    },
     "Region": {
       "Value": {
         "Ref": "AWS::Region"
